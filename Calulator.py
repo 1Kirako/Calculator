@@ -9,29 +9,34 @@ if operation == "+":  # Addition
     num2 = input("Second number: ")
 
     print((float(num1)) + (float(num2)))
-elif:
+else:
+     if
     operation == "-":  # Subtraction
         num1 = input("First number: ")
         num2 = input("Second number: ")
 
         print((float(num1)) - (float(num2)))
-    elif:
+    else:
+        if
         operation == "*":  # Multiplication
             num1 = input("First number: ")
             num2 = input("Second number: ")
 
             print((float(num1)) * (float(num2)))
-        elif:
-            operation == "^":  # Exponentiation
+        else:
+           if
+             operation == "^":  # Exponentiation
                 num1 = input("First number: ")
                 num2 = input("Second number: ")
                 print(pow((float(num1)), (float(num2))))
-            elif:
+            else:
+              if
                 operation == "log":  # Logarithm
                     num1 = input("First number: ")
                     num2 = input("Second number: ")
                     print(log(float(num1), (float(num2))))
-                elif:
+                else:
+                  if
                     operation == "/":  # Division pt.1
                         num1 = input("First number: ")
                         num2 = input("Second number: ")
