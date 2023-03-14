@@ -1,7 +1,7 @@
 from math import *
 # Symbols of operations: + -- Addition - -- Subtraction * -- Multiplication / -- Division ^ -- Exponentiation log -- Logarithm
-print("Welcome to Kirako's Calculator, "
-      "Current version: 1.2")
+print("Welcome to Kirako's Calculator, ")
+print("Current version: 1.6")
 operation = input("Enter the symbol of which operation do you want to do: ")
 if operation == "+":  # Addition
   num1 = float(input("First number: "))
