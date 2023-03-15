@@ -1,5 +1,6 @@
 from math import *
-# Symbols of operations: + -- Addition - -- Subtraction * -- Multiplication / -- Division ^ -- Exponentiation log -- Logarithm
+# Symbols of standard calculator operations: + -- Addition - -- Subtraction * -- Multiplication / -- Division 
+# Symbols of other operations ^ -- Exponentiation log -- Logarithm
 print("Welcome to Kirako's Calculator, ")
 print("Current version: 2.1")
 operation = input("Enter the symbol of which operation do you want to do: ")
