@@ -1,8 +1,8 @@
 from math import *
 # Symbols of standard calculator operations: + -- Addition - -- Subtraction * -- Multiplication / -- Division
-# Symbols of other operations ^ -- Exponentiation log -- Logarithm
+# Symbols of other operations ^ -- Exponentiation log -- Logarithm sqrt - Square root
 # Welcome to the Calculator
-# Current version: 2.2
+# Current version: 3.0
 operation = input("Enter the symbol of which operation do you want to do: ")
 if operation == "+":  # Addition
     num1 = float(input("First number: "))
@@ -24,6 +24,9 @@ elif operation == "log":  # Logarithm
     num1 = float(input("First number: "))
     num2 = float(input("Second number: "))
     print(log(num1, num2))
+elif operation == "sqrt":  # Square root
+    num1 =float(input("Number: "))
+    print(sqrt(num1))
 elif operation == "/":  # Division pt.1
     num1 = float(input("First number: "))
     num2 = float(input("Second number: "))
