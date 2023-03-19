@@ -2,7 +2,7 @@ from math import *
 # Symbols of standard calculator operations: + -- Addition - -- Subtraction * -- Multiplication / -- Division
 # Symbols of other operations ^ -- Exponentiation log -- Logarithm // - Square root
 # Welcome to the Calculator
-# Current version: 3.0
+# Current version: 3.1
 operation = input("Enter the symbol of which operation do you want to do: ")
 if operation == "+":  # Addition
     num1 = float(input("First number: "))
