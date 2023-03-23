@@ -2,7 +2,7 @@ from math import *
 # Symbols of standard calculator operations: + -- Addition - -- Subtraction * -- Multiplication / -- Division
 # Symbols of other operations ^ -- Exponentiation log -- Logarithm // - Square root
 # Welcome to the Calculator
-# Current version: 4.1
+# Current version: 4.2
 operation = input("Enter the symbol of which operation do you want to do: ")
 if operation == "//":  # Square root
     num1 = float(input("Number: "))
@@ -25,4 +25,4 @@ else:
             print("Error!")
         else:
             print(num1 / num2)
-        print(num1 / num2)
+            
